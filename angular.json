@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "1d611c96-727b-4106-9362-a1878b40cbd6"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -44,6 +45,7 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
+          
           "configurations": {
             "production": {
               "buildTarget": "dostaffkin:build:production"
