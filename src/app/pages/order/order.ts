@@ -42,6 +42,7 @@ export class Order {
         });
     }
 
+    //комментарий
     ngOnInit() {
         ymaps.ready(() => {
             this.map = new ymaps.Map('map', {
